@@ -10,11 +10,28 @@
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__container">
+      <h1>
+        <img class="header__logo" src="./src/assets/disneyplus.svg" alt="Disney+">
+      </h1>
+      <ul class="header__links">
+        <li class="header__links__item">
+          <a class="button button--secondary" href="#">Assine agora</a>
+        </li>
+        <li class="header__links__item">
+          <a class="button button--dark" href="#">Entrar</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
   <section class="hero">
     <div class="hero__content">
-      <h1 class="hero__content__branding">
+      <div class="hero__content__branding">
         <img src="./src/assets/disneyplus.svg" alt="Disney+">
-      </h1>
+      </div>
       <h3 class="title--small">
         As melhores histórias em um só lugar
       </h3>
@@ -29,10 +46,10 @@
         <li class="hero__content__combos__combo">
           <img src="./dist/assets/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
           <button class="button">Assine Agora</button>
-          <span class="text">R$ 45,90/mês*</span>
+          <span class="text">R$ 27,90/mês*</span>
         </li>
         <li class="hero__content__combos__combo">
-          <img src="./dist/assets/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
+          <img src="./dist/assets/logos/disney_star_plus_starzplay_underline.png" alt="Disney+ - Star+ - Combo+">
           <button class="button">Assine Agora</button>
           <span class="text">R$ 45,90/mês*</span>
         </li>
@@ -274,10 +291,10 @@
         <li class="footer__links__item">
           <div class="language-selector">
             <img src="./dist/assets/icones/globe.svg" alt="Globo do mundo">
-          <select>
-            <option>English</option>
-            <option selected>Português</option>
-          </select>
+            <select>
+              <option>English</option>
+              <option selected>Português</option>
+            </select>
           </div>
         </li>
         <li class="footer__links__item">
