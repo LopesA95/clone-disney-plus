@@ -36,7 +36,7 @@ function watchFiles() {
   gulp.watch("./src/styles/**/*.scss", compileStyles);
   gulp.watch("./src/assets/**/*", optimizeImages);
   gulp.watch("./*.html").on("change", browserSync.reload); // Reload on HTML file changes
-  gulp.watch("./src/scripts/*.js", compileStyles);
+  gulp.watch("./src/scripts/*.js", scripts);
 }
 
 exports.default = gulp.parallel(compileStyles, optimizeImages, scripts);
